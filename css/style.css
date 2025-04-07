@@ -178,15 +178,38 @@ h4, h5, h6, .h4, .h5, .h6 {
 /*** Events End ***/
 
 
-/*** DASice start ***/
-.DASice .DASice-item {
+
+
+
+
+
+
+.form-control:not(:placeholder-shown) {
+    color: black; /* Or any other color you want */
+}
+
+.form-select {
+    color: black; /* Set the default text color for the select */
+}
+
+.form-select option:checked {
+    color: black; /* Ensure the checked option is also black */
+}
+
+
+
+
+
+
+/*** service start ***/
+.service .service-item {
     position: relative;
     height: 100%;
     border-radius: 8px;
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
 }
 
-.DASice-content::after {
+.service-content::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -199,38 +222,38 @@ h4, h5, h6, .h4, .h5, .h6 {
     transition: 1s;
 }
 
-.DASice-item:hover .DASice-content::after {
+.service-item:hover .service-content::after {
     height: 100%;
     opacity: 1;
 }
 
-.DASice-item .DASice-content-icon {
+.service-item .service-content-icon {
     position: relative;
     z-index: 2;
 }
 
-.DASice-item .DASice-content-icon i,
-.DASice-item .DASice-content-icon p {
+.service-item .service-content-icon i,
+.service-item .service-content-icon p {
     transition: 1s;
 }
 
-.DASice-item:hover .DASice-content-icon i {
+.service-item:hover .service-content-icon i {
     color: var(--bs-dark) !important;
 }
 
-.DASice-item:hover .DASice-content-icon p {
+.service-item:hover .service-content-icon p {
     color: var(--bs-white);
 }
 
-.DASice-item:hover .DASice-content-icon a.btn-primary {
+.service-item:hover .service-content-icon a.btn-primary {
     background: var(--bs-white);
     color: var(--bs-dark);
 }
 
-.DASice-item .DASice-content-icon a.btn-primary {
+.service-item .service-content-icon a.btn-primary {
     transition: 1s !important;
 }
-/*** DASices End ***/
+/*** services End ***/
 
 
 /*** Menu Start ***/

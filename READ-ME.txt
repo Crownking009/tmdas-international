@@ -1,6 +1,6 @@
   =>  Template Name    : TMDAS- Catering Services
 
-  =>  Template Link    : https://htmlcodex.com/TMing-DASices-website-template
+  =>  Template Link    : https://htmlcodex.com/TMing-services-website-template
 
   =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
 
