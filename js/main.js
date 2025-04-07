@@ -88,6 +88,12 @@
             // Add more cities and their places here
         };
 
+        // WhatsApp numbers for different countries
+        const whatsappNumbers = {
+            UK: "447584031408", // Replace with your UK WhatsApp number
+            Nigeria: "2349048239391" // Your Nigerian WhatsApp number
+        };
+
         // Function to populate dropdown
         function populateDropdown(selectElement, options) {
             selectElement.empty().append('<option value="">Select ' + selectElement.attr('aria-label') + '</option>');
@@ -161,8 +167,10 @@
             message += `Event Date: ${date}\n`;
             message += `Email: ${email}`;
 
+            // Select the appropriate WhatsApp number based on country
+            const whatsappNumber = whatsappNumbers[selectedCountry] || whatsappNumbers.Nigeria; // Default to Nigeria number if country not found
+            
             const encodedMessage = encodeURIComponent(message);
-            const whatsappNumber = '2349048239391'; // Replace with your actual number
             const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
             window.location.href = whatsappURL;

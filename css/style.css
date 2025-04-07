@@ -1,5 +1,5 @@
 body {
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: "Arial Black", Gadget, sans-serif; 
   }
 /*** Spinner Start ***/
 #spinner {
@@ -26,12 +26,12 @@ body {
 
 h1, h2, h3, .h1, .h2, .h3 {
     font-weight: 500 !important;
-    font-family: 'Arial Black', cursive !important;
+    font-family: 'Arial Black', sans-serif !important;
 }
 
 h4, h5, h6, .h4, .h5, .h6 {
     font-weight: 700 !important;
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Arial Black', 'Open Sans', sans-serif !important;
 }
 
 .my-6 {
