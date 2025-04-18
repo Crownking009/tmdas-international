@@ -567,6 +567,110 @@ h4, h5, h6, .h4, .h5, .h6 {
 
 
 
-  .addr{
+  /* .addr{
     margin-top: 50px;
-  }
+    font-weight: 700;
+  } */
+
+
+
+
+
+/* Walk-in Restaurant Styles */
+.walk-in-restaurant .visit-card {
+    transition: all 0.3s ease;
+}
+
+.walk-in-restaurant .visit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.walk-in-restaurant h2 {
+    font-size: 2.5rem;
+    color: #0d0d0d;
+}
+
+.walk-in-restaurant h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #0d0d0d;
+}
+
+/* Address and hours text styling */
+.address-text, .hours-text {
+    font-weight: 700 !important;
+    color: #0d0d0d;
+}
+
+/* Button styling */
+.walk-in-restaurant .btn {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+/* Orange color styling */
+.text-orange {
+    color: #FF8C00 !important; /* Deep orange color */
+}
+
+.btn-orange {
+    background-color: #FF8C00;
+    color: white;
+    border: 2px solid #FF8C00;
+    transition: all 0.3s ease;
+}
+
+.btn-orange:hover {
+    background-color: transparent;
+    color: #FF8C00;
+}
+
+
+
+/* Orange text styling */
+.text-orange {
+    color: #FF8C00 !important; /* Deep orange color */
+}
+
+
+
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .walk-in-restaurant h2 {
+        font-size: 2.3rem;
+    }
+    
+    .walk-in-restaurant h3 {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .walk-in-restaurant {
+        margin-top: 2rem !important;
+    }
+    
+    .walk-in-restaurant .visit-card {
+        padding: 20px !important;
+    }
+    
+    .walk-in-restaurant h2 {
+        font-size: 2.1rem;
+    }
+    
+    .walk-in-restaurant h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .walk-in-restaurant h2 {
+        font-size: 2rem;
+    }
+    
+    .walk-in-restaurant h3 {
+        font-size: 1.2rem;
+    }
+}
