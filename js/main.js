@@ -91,7 +91,7 @@
         // WhatsApp numbers for different countries
         const whatsappNumbers = {
             UK: "447584031408", // Replace with your UK WhatsApp number
-            Nigeria: "2349048239391" // Your Nigerian WhatsApp number
+            Nigeria: "2349068910115" // Your Nigerian WhatsApp number
         };
 
         // Function to populate dropdown
